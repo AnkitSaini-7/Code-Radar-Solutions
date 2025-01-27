@@ -9,6 +9,6 @@ int main() {
    printf("Eter num1 and num2\n");
    scanf("%d%d\n", &num1, &num2);
    sum = num1 + num2;
-   print("%d", sum);
+   printf("%d", sum);
     return 0;
 }
