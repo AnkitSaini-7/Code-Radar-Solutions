@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
     int num1, num2, num3, average;
-    printf("Enter num1, num2 and num3");
+    printf("Enter num1, num2 and num3\n");
     scanf("%d%d%d", &num1, &num2, &num3);
-    average = num1*num2*num3;
-    printf("%d", average);
+    average = (num1+num2+num3)/3;
+    printf("%d\n", average);
         return 0;
 }
