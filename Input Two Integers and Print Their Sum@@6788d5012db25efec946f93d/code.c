@@ -5,11 +5,11 @@ char* welcome() {
 }
 
 int main() {
-   int num1, num2, result;
-   cout<<"Enter num1"<<end1;
-   cin>> num1;
-   cout<<"Enter num2"<<end1;
-   cin>> num2; 
-   result = num1 +num2;
+   int num1, num2, sum;
+   printf("Eter num1\n");
+   printf("Enter num2\n");
+   scanf("%d%d\n", &num1, &num2);
+   sum = num1 +num2;
+   print("%d", sum);
     return 0;
 }
