@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     float a;
-    printf("Enter tour float");
-    scanf("%f"&a);
+    printf("Enter your float");
+    scanf("%f",&a);
 
     printf("%f", a);
     return 0;
