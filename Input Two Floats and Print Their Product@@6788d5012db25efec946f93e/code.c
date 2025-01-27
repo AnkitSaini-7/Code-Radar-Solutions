@@ -9,6 +9,6 @@ int main() {
     printf("Enter num1 and num2\n");
     scanf("%d%d", &num1, &num2);
     product = num1*num2;
-    printf("Product %product",product);
+    printf("Product %d",product);
     return 0;
 }
