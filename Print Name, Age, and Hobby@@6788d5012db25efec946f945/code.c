@@ -9,7 +9,7 @@ int main() {
     int b;
     printf("Enter name and age");
     printf("Enter your hobby");
-    scanf("%s %d", &str, &b);
+    scanf("%s %d %s", &str, &b, &str1);
     printf("Name: %s", str);
     printf("Age: %d", b);
     prinf("Hobby: %s", str1);
