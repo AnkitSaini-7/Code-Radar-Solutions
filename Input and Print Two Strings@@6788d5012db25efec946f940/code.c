@@ -11,5 +11,7 @@ int main() {
     
     printf("Enter str2", str2);
     scanf("s", &str2);
+
+    printf("You entered")
     return 0;
 }
