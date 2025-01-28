@@ -9,7 +9,7 @@ int main() {
     printf("Enter str1", str1);
     scanf("s", &str1);
     
-    printf("Enter str2", str2)
+    printf("Enter str2", str2);
     scanf("s", &str2);
     return 0;
 }
