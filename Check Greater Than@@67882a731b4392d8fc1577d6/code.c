@@ -12,8 +12,8 @@ int main() {
     scanf("%d",&b);
     printf("%d",b);
     if(a>b){
-        printf("True");
-        else
+        printf("True");}
+    else{
         printf("False");
     }
 
