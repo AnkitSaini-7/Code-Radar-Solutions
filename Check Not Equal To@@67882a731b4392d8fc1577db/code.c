@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &b);
     printf("%d",a);
     printf("%d",b);
-    if("a==b"){
+    if(a==b){
         printf("False");
     }
     else{
