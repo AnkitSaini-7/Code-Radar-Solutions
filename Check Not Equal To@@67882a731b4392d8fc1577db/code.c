@@ -10,8 +10,8 @@ int main() {
     scanf("%d", &b);
     if("a!=b"){
         printf("True");
-        if{
-            printf("False");
+    else{
+        printf("False");
         }
     }
     return 0;
