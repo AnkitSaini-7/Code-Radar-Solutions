@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &b);
     if("a!=b"){
         printf("True");
-        else{
+        if{
             printf("False");
         }
     }
