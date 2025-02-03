@@ -11,8 +11,8 @@ int main() {
     if("a!=b"){
         printf("True");
     }
-    else{
-        printf("False");
+    else if(a == b){
+        prinf("False");
     }
     return 0;
 }
