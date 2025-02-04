@@ -11,7 +11,10 @@ int main() {
         printf("Divisible");
     }
     else if(a/11==0){
-        printf("Not Divisible");
+        printf("Divisible");
+    }
+    else{
+        printf("Not Divisible")
     }
     return 0;
 }
