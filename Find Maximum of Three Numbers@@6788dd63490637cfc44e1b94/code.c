@@ -13,7 +13,7 @@ int main() {
         printf("%d", a);
     }
     else if(b>c>a){
-        printf("%s", b);
+        printf("%d", b);
     }
     else if(c>a>b){
         printf("%d", c);
@@ -24,6 +24,8 @@ int main() {
     else if(b>a>c){
         printf("d", a);
     }
-    
+    else if(a<b<c){
+        printf("%d" ,c)
+    }
     return 0;
 }
