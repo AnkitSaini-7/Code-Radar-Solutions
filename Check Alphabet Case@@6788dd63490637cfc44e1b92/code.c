@@ -8,6 +8,9 @@ int main() {
     char a;
     scanf("%c", &a);
     if(a >=A && a<= Z);
-    printf()
+    printf("Uppercase");
+    else{
+        printf("Lowercase")
+    }
     return 0;
 }
