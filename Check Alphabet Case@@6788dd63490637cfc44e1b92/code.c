@@ -5,12 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    char a, A, Z;
-    scanf("%c", &a);
-    if(A >=0 && 0<= Z){
+    char ch;
+    scanf("%c", &ch);
+    if(ch >='A' && ch<= 'Z'){
     printf("Uppercase");
     }
-    else if(a>=0 || z<=0){
+    else if(ch>='a' && ch<='z'){
         printf("Lowercase");
     }
     else{
