@@ -24,8 +24,6 @@ int main() {
     else if(b>a>c){
         printf("d", a);
     }
-    else {
-        printf("%d", a)
-    }
+    
     return 0;
 }
