@@ -21,7 +21,7 @@ int main() {
         printf("D");
     }
     else if(a<60){
-        printf("F")
+        printf("F");
     }
     return 0;
 }
