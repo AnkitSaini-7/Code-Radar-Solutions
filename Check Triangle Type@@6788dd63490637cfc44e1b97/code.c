@@ -12,7 +12,7 @@ int main() {
     if(a==b&&b==c){
         printf("Equilateral");
     }
-    else if(a!=c){
+    else if(a!=b){
         printf("Scalene");
     }
     else if(a=b!=c){
