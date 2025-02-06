@@ -14,5 +14,8 @@ int main() {
    else if(b>a){
     printf("Profit");
    }
+   else{
+    printf("NO Profit NO Loss");
+   }
     return 0;
 }
