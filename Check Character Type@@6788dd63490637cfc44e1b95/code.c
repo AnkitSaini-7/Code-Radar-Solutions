@@ -3,12 +3,13 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-
-int main() {
+int main {
     int a;
     char b;
-    scanf("%d", &a);
     scanf("%c", &b);
-    if()
+    if(b == 'a', 'e', 'i', 'o', 'u'){
+        printf("Vowel");
+    }
+    /*else if (b == )*/
     return 0;
 }
