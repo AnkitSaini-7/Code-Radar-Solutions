@@ -4,7 +4,7 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 int main {
-    int a;
+    
     char b;
     scanf("%c", &b);
     if(b = ('a''e' 'i''o' 'u')){
