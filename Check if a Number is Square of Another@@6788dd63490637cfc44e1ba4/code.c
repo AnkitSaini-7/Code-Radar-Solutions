@@ -11,6 +11,9 @@ int main() {
     if(a%b==0){
         printf("Yes");
     }
+    else if(8%2==0){
+        printf("No");
+    }
     else{
         printf("No");
     }
