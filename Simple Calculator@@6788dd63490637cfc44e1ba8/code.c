@@ -3,18 +3,31 @@ int main() {
     int a, b;
     char c;
     scanf("%d %d %c", &a, &b, &c);
-   
+    int ans;
     if(c == '+'){
-        printf("%d",a+b);
+        ans = a+b;
+        printf("%d",ans);
     }
     else if (c == '-'){
-        printf("%d",a - b);
+        ans = a-b;
+        printf("%d",ans);
     }
     else if(c=='*'){
-        printf("%d" ,a-b);
+        ans = a*b
+        printf("%d" ,ans);
     }
     else if(c == '/'){
-        printf("%f" ,a/b);
+        ans = a/b
+        printf("%f" ,ans);
+    }
+    else{
+        if(b == 0){
+            printf("error");
+        }
+        else{
+            ans = a/b;
+            printf("%d", ans);
+        }
     }
     return 0;
 }
