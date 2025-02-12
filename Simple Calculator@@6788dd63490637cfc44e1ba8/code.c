@@ -13,11 +13,11 @@ int main() {
         printf("%d",ans);
     }
     else if(c=='*'){
-        ans = a*b
+        ans = a*b;
         printf("%d" ,ans);
     }
     else{
-        if(b == '0'){
+        if(b == 0){
             printf("error");
         }
         else{
