@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     double num;
-    scanf("%f", &num);
+    scanf("lf", &num);
     printf("You entered: %.4f\n", num);
-    
+
     return 0;
 }
