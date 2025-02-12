@@ -17,7 +17,7 @@ int main() {
         printf("%d" ,ans);
     }
     else{
-        if(b == 0){
+        if(b == '0'){
             printf("error");
         }
         else{
