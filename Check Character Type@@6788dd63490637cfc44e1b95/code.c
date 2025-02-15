@@ -7,7 +7,7 @@ int main {
     
     char b;
     scanf("%c", &b);
-    if(b == ('a','e', 'i','o' ,'u')){
+    if(b == 'a','e', 'i','o' ,'u'){
         printf("Vowel");
     }
     /*else if (b == )*/
