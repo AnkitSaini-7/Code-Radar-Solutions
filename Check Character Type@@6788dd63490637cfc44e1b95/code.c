@@ -10,7 +10,7 @@ int main() {
         printf("Vowel");}
     
     else if((b >='A'&&b<='Z')||(b>='a'&&b<='z')){
-        printf("Constant");
+        printf("Consonant");
     }
     else if(b>=0||b<=0){
         printf("Digit");
