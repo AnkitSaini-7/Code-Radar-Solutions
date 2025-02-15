@@ -10,6 +10,6 @@ int main {
     if(b == 'a'){
         printf("Vowel");
     }
-    /*else if (b == )*/
+   /
     return 0;
 }
