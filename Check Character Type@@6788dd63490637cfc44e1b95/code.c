@@ -15,7 +15,7 @@ int main() {
     else if(b>=0||b<=0){
         printf("Digit");
     }
-    else{
+    else if (b=='@'){
         printf("Special Character");
     }
     return 0;
