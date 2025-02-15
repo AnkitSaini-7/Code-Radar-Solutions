@@ -9,7 +9,7 @@ int main() {
         printf("Vowel");
     }
     else if((b >='A'&&b<='Z')||(b>='a'&&b<='z')){
-        printf("Constant")
+        printf("Constant");
     }
     return 0;
 }
