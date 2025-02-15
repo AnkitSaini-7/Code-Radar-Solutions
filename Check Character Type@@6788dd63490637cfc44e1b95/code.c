@@ -5,7 +5,8 @@ int main() {
     
     char b;
     scanf("%c", &b);
-    if(b == 'a'||b == 'e'||b == 'i'||b == 'o'||b == 'u'||b == 'A'||b == 'E'||b == 'I'||b == 'O'||b == 'U'){
+    if(b == 'a'||b == 'e'||b == 'i'||b == 'o'||b == 'u'||
+    b == 'A'||b == 'E'||b == 'I'||b == 'O'||b == 'U'){
         printf("Vowel");}
     }
     else if((b >='A'&&b<='Z')||(b>='a'&&b<='z')){
