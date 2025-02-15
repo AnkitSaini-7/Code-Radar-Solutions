@@ -12,11 +12,11 @@ int main() {
     else if((b >='A'&&b<='Z')||(b>='a'&&b<='z')){
         printf("Consonant");
     }
-    else if(b>=0||b<=0){
-        printf("Digit");
-    }
     else if (b=='@'){
         printf("Special Character");
+    }
+    else if(b>=0||b<=0){
+        printf("Digit");
     }
     return 0;
 }
