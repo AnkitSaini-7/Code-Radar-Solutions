@@ -11,5 +11,11 @@ int main() {
     else if((b >='A'&&b<='Z')||(b>='a'&&b<='z')){
         printf("Constant");
     }
+    else if(b>=0||b<=0){
+        printf("Digit");
+    }
+    else{
+        printf("Special Character");
+    }
     return 0;
 }
