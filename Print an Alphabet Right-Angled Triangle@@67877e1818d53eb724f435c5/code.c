@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char n;
+    int n;
     scanf("%ch", &n);
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i;j++){
