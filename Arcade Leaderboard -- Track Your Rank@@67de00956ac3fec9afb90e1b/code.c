@@ -19,7 +19,7 @@
     for (int i = 0; i < m; i++) printf("%d\n", result[i]);
 
     return 0;
-}
+
 
 // Implement the trackPlayerRanks function!
 // Hint: Create dense ranks first, then compare player scores efficiently.
