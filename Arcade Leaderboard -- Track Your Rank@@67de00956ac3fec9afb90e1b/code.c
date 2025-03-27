@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+ {
     int n, m;
     scanf("%d", &n);
     int ranked[200000];
